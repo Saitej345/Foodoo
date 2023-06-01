@@ -1,0 +1,36 @@
+/* hero section */
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.hero__left__wrapper{
+max-width: 360px;
+}
+.hero__imgWrapper{
+    max-width: 400px;
+    width: 88%;
+    margin: 0 auto;
+
+}
+.hero__heading{
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--black-1);
+}
+.hero__info{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--black-2);
+}
+.button__wrapper{
+    text-align: center;
+    
+}
